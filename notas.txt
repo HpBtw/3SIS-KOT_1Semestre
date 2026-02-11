@@ -1,0 +1,12 @@
+--- Aula 00 - 10/02 ---
+O paradigma imperativo, focado no "como" fazer através de passos detalhados e mudança de estado, tem como seu principal contraponto o paradigma declarativo, que foca no "o que" fazer, descrevendo o resultado desejado sem explicitar o passo a passo. 
+Principais diferenças e paradigmas relacionados:
+Paradigma Declarativo: Focado no resultado final (ex: SQL, HTML, programação funcional) - Mais rápido, mais fácil de desenvolver. (Sera estudado pois é o mais usado hoje em dia)
+Paradigma Imperativo: Focado na sequência de comandos/passos (ex: C, Python, Java) - Mais velho, mas com maior plataforma embarcada. (Nao sera estudado)
+Subtipos do Imperativo: Procedural (focado em procedimentos/funções) e Orientado a Objetos (focado em objetos e estados). 
+Para criar um novo projeto:
+- Abrir Android Studio
+- Selecionar Empty Activity
+- Colocar nome da aplicação (CamelCase)
+- TROCAR O PACOTE DO PROJETO (*OBRIGATORIO*) -> Dominio do site ao contrario. Ex: github.com/hpbtw o pacote sera hpbtw.com.github
+- Mover para o disco D
