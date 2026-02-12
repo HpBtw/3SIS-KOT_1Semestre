@@ -7,6 +7,6 @@ Subtipos do Imperativo: Procedural (focado em procedimentos/funções) e Orienta
 Para criar um novo projeto:
 - Abrir Android Studio
 - Selecionar Empty Activity
-- Colocar nome da aplicação (CamelCase)
+- Colocar nome da aplicação (PascalCase)
 - TROCAR O PACOTE DO PROJETO (*OBRIGATORIO*) -> Dominio do site ao contrario. Ex: github.com/hpbtw o pacote sera hpbtw.com.github
 - Mover para o disco D
