@@ -8,5 +8,26 @@ Para criar um novo projeto:
 - Abrir Android Studio
 - Selecionar Empty Activity
 - Colocar nome da aplicação (PascalCase)
-- TROCAR O PACOTE DO PROJETO (*OBRIGATORIO*) -> Dominio do site ao contrario. Ex: github.com/hpbtw o pacote sera hpbtw.com.github
+- TROCAR O PACOTE DO PROJETO (*OBRIGATORIO*) -> Dominio do site ao contrario. Ex: github.com/hpbtw o pacote sera hpbtw.com.github.nomedopacote
 - Mover para o disco D
+
+- Criação de classes seguirá PascalCase
+
+--- Aula 01 - 24/02 ---
+Significado da sigla IDE -> Integrated Development Environment
+Foi convencionado o nome do domínio ao contrário graças ao Java: o domínio mantinha a unicidade do projeto. Não use com.example (A Playstore não aceita)
+Dentro do SDK (Software Development Kit) há abstrações (usos) de programas prontos, no caso do Nougat: alguns exemplos de funcionalidades são: as notificações; API de quick_settings; otimizações de vida útil de bateria; disponibilidade de VPN.
+Gradle é um gerenciador de 'dependências' -> Programas que estão em um repositorio da internet, são componentes externos, como bibliotecas, frameworks, pacotes ou módulos de terceiros, necessários para que o aplicativo seja compilado, construído e executado corretamente. Elas permitem a reutilização de código, acelerando o desenvolvimento e evitando reinventar funcionalidades básicas, sendo fundamentais para a estrutura funcional.
+Todas as permissões que um aplicativo precisa estão dentro de um manifesto.
+Build-gradle-kts: Baixa as dependencias que voce pedir, configurar, manter atualizado, deixar pronto e te entregar. Arquivo que você diz quais dependencias vai trabalhar. Tem 2 niveis: projeto e modulo (aplicação) (o que interessa pra gente), local onde podemos ver as dependências baixadas e inserir dependências novas.
+
+Principais ferramentas da IDE (Android Studio):
+Monitorar, analisar e solucionar problemas no processo de compilação do aplicativo - Build
+Detalhes de problemas que aconteceram na minha aplicação - Logcat
+Comandos git ou cli - Terminal
+Especificações e dependencias do projeto - build-gradle-kts (module)
+
+Uma classe é um modelo estruturado de um objeto, e deve ser criado PascalCase.kt.
+Classe Bundle é responsável por muitas coisas como girar o celular, manter dados ativos no estado e outras.
+
+O ? no final de uma classe indica que ela pode ser nula.
