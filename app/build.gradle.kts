@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "hpbtw.com.github.helloworld"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "hpbtw.com.github.helloworld"
