@@ -31,3 +31,6 @@ Uma classe é um modelo estruturado de um objeto, e deve ser criado PascalCase.k
 Classe Bundle é responsável por muitas coisas como girar o celular, manter dados ativos no estado e outras.
 
 O ? no final de uma classe indica que ela pode ser nula.
+
+-- Aula 02 - 03/03 ---
+A anotação composable indica que aquela função utizará somente outros recursos com a mesma anotação
